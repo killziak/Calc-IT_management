@@ -26,7 +26,7 @@ describe("Calculator unit tests", () => {
   });
 
   test("compute adds numbers correctly", () => {
-    expect(compute(2, 3, "+")).toBe(6);
+    expect(compute(2, 3, "+")).toBe(5);
   });
 
   test("compute multiplies numbers correctly", () => {
